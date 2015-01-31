@@ -1,3 +1,5 @@
+var React = require('react')
+
 var ImageBrowser = React.createClass({
   render: function() {
     var style = {
@@ -11,3 +13,5 @@ var ImageBrowser = React.createClass({
       )
   }
 })
+
+module.exports = ImageBrowser

@@ -1,0 +1,36 @@
+{
+  "name": "photos-react",
+  "version": "1.0.0",
+  "description": "React experimental project",
+  "main": "js/app.jsx",
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llun/photos-react.git"
+  },
+  "keywords": [
+    "photos",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llun/photos-react/issues"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "homepage": "https://github.com/llun/photos-react",
+  "dependencies": {
+    "react": "^0.12.2",
+    "stringview": "^1.0.0"
+  },
+  "devDependencies": {
+    "reactify": "^1.0.0",
+    "watchify": "^2.3.0"
+  }
+}
