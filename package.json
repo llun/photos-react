@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/llun/photos-react",
   "dependencies": {
+    "flux": "^2.0.1",
     "react": "^0.12.2",
     "stringview": "^1.0.0"
   },
