@@ -20,7 +20,7 @@ var Filters = React.createClass({
         <div className="col-xs-12">
           <div className="filters-wrapper">
             {filters.map(function(filter) {
-              return <button className="btn btn-default">{filter.label}</button>
+              return <button key={filter.name} className="btn btn-default">{filter.label}</button>
             })}
             <button className="btn btn-danger">Reset</button>
           </div>
